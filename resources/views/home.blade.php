@@ -51,12 +51,12 @@
 
 <!-- seccion -->
 
-<section class="my-5">
+<section class="">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 mx-auto">
 				<hr>
-					<h1>Noticias<br>Como van los colegios públicos y privados de Popayán?</h1>
+					<h4>Noticias<br>Como van los colegios públicos y privados de Popayán?</h4>
 				<hr>
 				<p>
 				Según  reciente estadística del Ministerio de Educación Nacional que midio a todas las instituciones públicas y privada del país, aparecen colegios de Popayán en diferentes posiciones.

@@ -10,7 +10,7 @@
 			<div class="container h-100">
 			<div class="d-flex h-100 text-center align-items-center">
 				<div class="w-100 text-white">
-					<h1 class="display-3">Radio Inem Popayan</h1>
+					<h3 class="display-4">Radio Inem Popayan</h3>
 					<p class="lead mb-0">Simples pero increibles momentos de los que hemos compartido, simples pero estupendos, simple pero hermoso recuerdo para la generacion de hoy y la historia del mañana.</p>
 				</div>
 			</div>

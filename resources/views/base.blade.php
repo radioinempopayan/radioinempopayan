@@ -78,7 +78,7 @@
 		<footer class="pt-4 my-md-5 pt-md-5 border-top">
 			<div class="row">
 				<div class="col-12 col-md">
-					<p><h2>La pagina en el momento esta en modo beta</h2></p>
+					<p><h5>La pagina en el momento esta en modo beta</h5></p>
 					<img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
 					<small class="d-block mb-3 text-muted">© 2018-2019 <br> mago_jefry & producion</small>
 				</div>
