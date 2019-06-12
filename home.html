@@ -9,7 +9,6 @@
 
 	<!-- Bootstrap & icomoon CSS -->
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap/css/bootstrap.min.css" >
-	<link rel="stylesheet" type="text/css" href="styles/bootstrap/css/bootstrap-video.css" >
 	<link rel="stylesheet" type="text/css" href="styles/icomoon/style.css" >
 	<link rel="icon" type="image/jgp" href="styles/images/logo.jpg" >
 	
@@ -26,7 +25,7 @@
 <body>
 	<!--navegacion-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<a class="navbar-brand" href="{{ route('index') }}">
+		<a class="navbar-brand" href="home.html">
 			<img src="styles/images/logo.jpg" width="30" height="30" alt=""> Radio Inem
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,14 +34,14 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="{{ route('index') }}">Home</a>
+				<li class="nav-item active">
+					<a class="nav-link" href="home.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ route('galery') }}">Galeria</a>
+					<a class="nav-link" href="galeria.html">Galeria</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ route('abouts') }}">About</a>
+					<a class="nav-link" href="about.html">About</a>
 				</li>
 			</ul>
 			<form>
@@ -56,7 +55,7 @@
 						<a class="btn btn-outline-light" href="https://twitter.com/inempopayan?lang=es" role="button" target="_blank"><span class="icon-twitter"></span></a>
 
 						<!-- instagram -->
-						<a class="btn btn-outline-light" href="https://www.instagram.com/radioinem/?hl=es" role="button" target="_blank"><span class="icon-instagram"></span></a>
+						<a class="btn btn-outline-light" href="hhttps://www.instagram.com/radioinem/?hl=es" role="button" target="_blank"><span class="icon-instagram"></span></a>
 
 					</div>
 					<div class="col-md-4">
@@ -69,12 +68,88 @@
 			</form>
 		</div>
 	</nav>
-<!-- section -->
-
-@yield('seccion')
 
 
-<!-- folder -->
+<!-- carrucel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="styles/images/carrucel/foto01.jpg" class="d-block w-100" alt="Primero">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Radio Inem Popayán</h5>
+				<p>Sonando una vez mas desde nuestro estudio para ustedes.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="styles/images/carrucel/foto02.jpg" class="d-block w-100" alt="Segundo">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Radio Inem Popayán</h5>
+				<p>Una radio juvenil para chicos y grandes, una radio para todos.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="styles/images/carrucel/foto03.jpg" class="d-block w-100" alt="Tercero">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Radio Inem Popayán</h5>
+				<p>Buscabas musica de todos los tiempos? pues aqui estamos una radio para ti.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="styles/images/carrucel/foto04.jpg" class="d-block w-100" alt="Cuarto">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Radio Inem Popayán</h5>
+				<p>Para todos nuestros inemitas y publico en general, esto es radio Inem popayan.</p>
+			</div>
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+
+<!-- seccion -->
+
+<section class="my-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mx-auto">
+				<hr>
+					<h1>Noticias<br>Como van los colegios públicos y privados de Popayán?</h1>
+				<hr>
+				<p>
+				Según  reciente estadística del Ministerio de Educación Nacional que midio a todas las instituciones públicas y privada del país, aparecen colegios de Popayán en diferentes posiciones.
+
+				La única herramienta para tratar de hacer cualquier listado eran las pruebas Saber 11, conocidas antes como las pruebas del Icfes. Sin embargo, para muchos, era claro que esos resultados sólo mostraban el final de un proceso y no lo que ocurría a lo largo de los más de 11 años de educación que en promedio reciben millones de niños y jóvenes. Según funcionarios del ministerio, las pruebas Saber sólo arrojan información sobre qué es lo que han aprendido los alumnos, pero no dicen nada sobre la calidad de la educación que recoge muchos otros elementos más <a href="http://www.popayan.gov.co/ciudadanos/sala-de-prensa/noticias/Como-van-los-colegios-públicos-y-privados-de-Popayán%3F-" target="_blank">Leer mas</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!-- p >
+	<audio autoplay controls >
+		<source src="http://198.7.59.204:16605/1;stream.nsv" type="audio/mpeg">
+	</audio>
+</p -->
+
+
+
+
 	<dir>
 		<footer class="pt-4 my-md-5 pt-md-5 border-top">
 			<div class="row">
@@ -115,7 +190,8 @@
 			</div>
 		</footer>
 	</div>
-<!-- funcion script -->
+
+
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
