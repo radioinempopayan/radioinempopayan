@@ -13,28 +13,28 @@
 		<div class="carousel-item active">
 			<img src="styles/images/carrucel/foto01.jpg" class="d-block w-100" alt="Primero">
 			<div class="carousel-caption d-none d-md-block">
-				<h5>Radio Inem Popayán</h5>
+				<h3>Radio Inem Popayán</h3>
 				<p>Sonando una vez mas desde nuestro estudio para ustedes.</p>
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img src="styles/images/carrucel/foto02.jpg" class="d-block w-100" alt="Segundo">
 			<div class="carousel-caption d-none d-md-block">
-				<h5>Radio Inem Popayán</h5>
+				<h3>Radio Inem Popayán</h3>
 				<p>Una radio juvenil para chicos y grandes, una radio para todos.</p>
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img src="styles/images/carrucel/foto03.jpg" class="d-block w-100" alt="Tercero">
 			<div class="carousel-caption d-none d-md-block">
-				<h5>Radio Inem Popayán</h5>
+				<h3>Radio Inem Popayán</h3>
 				<p>Buscabas musica de todos los tiempos? pues aqui estamos una radio para ti.</p>
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img src="styles/images/carrucel/foto04.jpg" class="d-block w-100" alt="Cuarto">
 			<div class="carousel-caption d-none d-md-block">
-				<h5>Radio Inem Popayán</h5>
+				<h3>Radio Inem Popayán</h3>
 				<p>Para todos nuestros inemitas y publico en general, esto es radio Inem popayan.</p>
 			</div>
 		</div>
@@ -56,7 +56,7 @@
 		<div class="row">
 			<div class="col-md-12 mx-auto">
 				<hr>
-					<h4>Noticias<br>Como van los colegios públicos y privados de Popayán?</h4>
+					<h3>Noticias<br>Como van los colegios públicos y privados de Popayán?</h3>
 				<hr>
 				<p>
 				Según  reciente estadística del Ministerio de Educación Nacional que midio a todas las instituciones públicas y privada del país, aparecen colegios de Popayán en diferentes posiciones.
